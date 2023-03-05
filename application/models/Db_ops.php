@@ -1,9 +1,13 @@
 <?php 
    Class Db_ops extends CI_Model {
 	/*
+   Run this in mysql console to create the table.
+
    CREATE TABLE product (id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,name VARCHAR(256) NOT NULL,
     category VARCHAR(256), mrp FLOAT, selling_price FLOAT, size VARCHAR(256),color VARCHAR(256), description LONGTEXT,image LONGTEXT);
     */
+
+    
       Public function __construct() { 
          parent::__construct(); 
 		 
